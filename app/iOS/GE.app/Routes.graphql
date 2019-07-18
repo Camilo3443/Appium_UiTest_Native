@@ -1,0 +1,9 @@
+query Routes {
+    product(id: ge, platform: ios) {
+        regexRouterList {
+            regex
+            type
+        }
+        inAppBrowserUrls
+    }
+}
