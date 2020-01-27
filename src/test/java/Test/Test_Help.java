@@ -16,9 +16,9 @@ public class Test_Help extends BaseTestClass  {
     public void TestHelp() throws InterruptedException {
         helpPage.clickEnterAccount();
         helpPage.clickEnterLogin();
-        helpPage.sendEmail("luis.camilo@dextra-sw.com");
+        helpPage.sendEmail("mailinator");
         helpPage.clickEnterAcc();
-        helpPage.sendPass("Dudu3443");
+        helpPage.sendPass("12345");
         helpPage.clickEnterAcc();
         helpPage.pause();
         helpPage.clickHelp();
